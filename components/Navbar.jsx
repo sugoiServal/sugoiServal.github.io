@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import NavLogo from '../public/assets/navLogo.png'
-
+import {CV_HREF} from '../constants'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -121,7 +121,7 @@ const Navbar = () => {
                 <AiOutlineMail />
               </Link>
 
-              <Link className="icon mx-3" target='_blank' href={"              https://docs.google.com/document/d/1DIp7JFRLIEFj2X9Wf8XRUMJPpjYj-uvHzVIRiaTnbi8/edit?usp=sharing"}>
+              <Link className="icon mx-3" target='_blank' href={CV_HREF}>
                 <BsFillPersonLinesFill />
               </Link>
  

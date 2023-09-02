@@ -53,8 +53,8 @@ export default function Experiences() {
 
     <ExpItem image={udemy}  
                title={"Self-taught Web Developer"}
-               institute={"Udemy/Youtube/LeetCode"}
-               institute2={"stackoverflow/ChatGPT"}
+               institute={"Udemy/ Youtube/ LeetCode"}
+               institute2={"stackoverflow/ ChatGPT"}
                date={"Sep 2021 - Present"}
                description={"udemyDesc"}/> 
 

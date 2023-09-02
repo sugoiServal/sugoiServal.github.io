@@ -43,12 +43,12 @@ const Projects = () => {
           />
       
           <ProjectItem
-            title='Nodejs Email Survey Campaign Service'
+            title='Nodejs/React Email Survey Campaign Service'
             backgroundImg={netflixImg}
             projectInfoUrl='/prj/netflix'
             liveUrl={"https://hub.docker.com/repository/docker/mlpppp/survey-collector"}
             githubUrl={"https://github.com/sugoiServal/survey-collector"}
-            tech='Paid API Service, React, Bootstrap CSS, express, MongoDB, JWT, Oauth:Google/Facebook/Github, reCAPTCHA, Stripe API, Twilio SendGrid API, Github Action'
+            tech='a Paid API Service, React, Bootstrap CSS, Express, MongoDB, JWT, Oauth:Google/Facebook/Github, reCAPTCHA, Stripe API, Twilio SendGrid API, Github Action'
           />
 
           <ProjectItem
