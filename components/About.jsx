@@ -5,32 +5,28 @@ import AboutImg from '../public/assets/about_waifu2x.png';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+    <div id='about' className='w-full  p-2 flex items-center py-16'>
+      <div className='max-w-[1340px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='py-2 uppercase text-xl tracking-widest text-primary'>
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
-          </p>
-          <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
-          </p>
-          <p>Currently I am learning Selerium and Terraform.</p>
+          Currently, I specialize in three core areas of development:</p>
+          <ol className='list-decimal py-2 pl-4 text-gray-600'>
+            <li>Building APIs using JavaScript/Java.</li>
+            <li>Creating front-end UIs with JavaScript frameworks.</li>
+            <li>Conducting Data Science exploration and Deep Learning experiments.</li>
+          </ol> 
+          <p>Additionally, I have {"two"} years of experience in C++ and am currently delving into DevOps and Cloud technologies.</p>
+          <p className='py-2'>My journey into web development began in late 2020 when I set up and hosted my personal blog. Since then, I've been self-learning both front-end and back-end technologies, gaining hands-on experience through projects and certifications. I now possess a comprehensive understanding of the web application lifecycle, with practical knowledge in various aspects.</p>
+          <p className='py-2'>Before web development, my background was primarily in Data Analysis and Deep Learning within the academic context. With a mixed background in Mathematics, Statistics, and Computer Science, I started coding in 2015, using languages like Python, R, and Matlab for Mathematical Modeling and Data Analysis. I did courses in Computer Science Department during my undergraduate studies and then completed my Master's degree at uOttawa concentrating on Deep Learning, accumulating about {"four"} years of experience in Deep Learning.</p>
+          <p className='py-2'>Learning is my passion. I believe that being a great developer involves not only performing operational tasks, but also anticipating potential requirements and problems, knowing available tools, and having a keen mind to decide on tool selection. I document and regularly revisit my knowledge base. This approach provides me with confidence, creativity and sanity in problem-solving.</p>
+          <p className='py-2'>In life, I embrace Minimalism. I enjoy optimization in various aspects, from my living environment and lifestyle, to my workflows, and decision-making processes.</p>
+
+
+          <p>I am currently learning Kubernetes and Django framework, and also diving deep into Spring Boot.</p>
           <div className="mt-6">
             <Link href='/#projects'>
               <p className='py-1 w-[50%] text-gray-600 underline cursor-pointer hover:bg-gray-200 rounded-md '>
@@ -54,10 +50,25 @@ const About = () => {
         <Link href='https://github.com/sugoiServal' target='_blank' className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />
         </Link>
-
       </div>
     </div>
   );
 };
+
+// "I specialize in three core areas of development:
+
+// Building APIs using JavaScript/Java.
+// Creating front-end UIs with JavaScript frameworks.
+// Conducting Data Science exploration and Deep Learning experiments.
+// Additionally, I have two years of experience in C++ and am currently delving into DevOps and Cloud technologies.
+
+// My journey into web development began in late 2020 when I set up and hosted my personal blog. Since then, I've been self-learning both front-end and back-end technologies, gaining hands-on experience through projects and certifications. I now possess a comprehensive understanding of the web application lifecycle, with practical knowledge in various aspects.
+
+// Before transitioning to web development, my background was primarily in Data Analysis and Deep Learning within an academic context. With a mixed background in Mathematics, Statistics, and Computer Science, I started coding in 2015, using languages like Python, R, and Matlab for Mathematical Modeling and Data Analysis. I pursued additional courses in Computer Science during my undergraduate studies and completed my Master's degree at uOttawa with a concentration in Deep Learning, accumulating a total of four years of experience in this field.
+
+// I'm passionate about learning and believe that being a great developer involves not only performing operational tasks but also anticipating potential requirements and problems, exploring available tools, and making informed decisions on tool selection. I prioritize documentation and regularly revisit my knowledge base. This approach provides me with confidence, fosters creativity, and enhances problem-solving abilities.
+
+// In life, I embrace Minimalism, finding joy in optimization across various aspects, from my living environment and lifestyle to my workflows and decision-making processes."
+
 
 export default About;

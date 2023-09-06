@@ -29,8 +29,8 @@ const Contact = () => {
               <div>
                 <h2 className='py-2'>Wei Li</h2>
                 <p>Full-Stack Developer</p>
-                <p className='py-6'>
-                  I am available for internship, contractor or full-time permanent positions. 
+                <p className='py-6'>    
+                  I am currently available for internship, contractor, or full-time permanent positions. I live in <b>Ottawa, Ontario Canada</b>, and hold <b>2 year open work permit</b> in Canada. I can do <b>relocation, commuting and/or remote working</b>.
                 </p>
                 <p className=' pt-2'>Connect with me and let&apos;s talk.</p>
               </div>
@@ -121,11 +121,11 @@ const Contact = () => {
                     <label className='text-sm py-2'>How do you think about the page?</label>
                     <textarea
                       className='border-2 rounded-lg p-3 border-gray-300'
-                      rows='6'
+                      rows='7'
                       name='message'
                     ></textarea>
                   </div>
-                  <button className='w-full p-4 text-gray-100 mt-8'>
+                  <button className='w-full p-4 text-gray-100 mt-10'>
                     Send Message
                   </button>
                 </form>

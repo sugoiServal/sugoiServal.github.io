@@ -35,7 +35,7 @@ export default function Main() {
             <p className='uppercase text-sm tracking-widest text-gray-600'>LET'S BUILD SOMETHING LEGENDARY TOGETHER.</p>
             <h1 className='py-4 text-gray-700'>Hi, I'm <span className='text-[#5651e5]'>Wei</span></h1>
             <h1 className='py-4 text-gray-700'>A Full-Stack Web Developer</h1>
-            <p className='py-4 text-gray-600 max-w-[70%] mx-auto font-light'>I am a full stack web developer having hand-on experience over building Web Servers, APIs, Databases Persistence/Query, Authentications, Front-End UXs, Software Testing, Machine Learning and Cloud/DevOps</p>
+            <p className='py-4 text-gray-600 max-w-[70%] mx-auto font-light'>I am a full-stack web developer having experience building Web Servers, APIs, Relational/Document Databases CRUD, Authentications, Front-End UXs, Software Testing, Machine Learning and Cloud/DevOps technologies.</p>
 
             <h2 className='py-4 text-2xl text-gray-700 font font-light'>I am currently <span className='text-primary border-b-2 border-primary'>{acceptJob}</span> to job opportunities. <span>{`(${curDate})`}</span></h2>
 

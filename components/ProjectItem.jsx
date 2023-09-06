@@ -10,15 +10,15 @@ const ProjectItem = ({title, backgroundImg, tech, projectInfoUrl, liveUrl, githu
           <h3 className='text-2xl mb-4 text-white tracking-wider text-center'>{title}</h3>
           <h className='pb-4 pt-2 font-semibold text-white text-center'>{tech}</h>
           <div className="flex mt-4 justify-center">
-            {liveUrl  && <Link href={liveUrl}>
+            {liveUrl  && <Link href={liveUrl} target='_blank'>
               <p className='project-btn'>Live</p>
             </Link>}
 
-            {githubUrl  && <Link href={githubUrl}>
+            {githubUrl  && <Link href={githubUrl} target='_blank'>
               <p className='project-btn'>Github</p>
             </Link>}
 
-            {projectInfoUrl  && <Link href={projectInfoUrl}>
+            {projectInfoUrl  && <Link href={projectInfoUrl} target='_blank'>
                 <p className='project-btn w-32'>More Info</p>
             </Link>}
           </div>

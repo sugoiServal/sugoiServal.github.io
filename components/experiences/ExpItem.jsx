@@ -26,7 +26,7 @@ export default function ExpItem({image, title, institute, institute2, date, desc
             <li>
               Focusing on Back-end development, Front-end development, DevOps, and Cloud Technologies, gradually diving deep into a field and/or exploring new frontiers
             </li>
-            <li>Keeping a balance between self-driven projects and studying theory/ following material.  </li>  
+            <li>Keeping a balance between self-driven projects, studying theory, following material and reviewing.  </li>  
             <li>Keeping every key note/ref/cheatsheet of my learning on a GitHub repo for a quick revisit/landing on the next project in the future.</li>  
             <li><Link className='font-bold text-primary hover:border-b-2 border-primary' href={"/#skills"}>{"Check out what I am able to do."}</Link></li>
           </ul>  

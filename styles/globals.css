@@ -63,7 +63,8 @@ html {
   .exp-institute-card {
     @apply w-[90%] h-[60%] my-8 sm:border-r-2 border-neutral-400  px-[1%] py-6
   }
-  /* .exp-card-left {
-    @apply
-  } */
+
+  #about p {
+    @apply text-lg 
+  }
 }

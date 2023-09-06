@@ -39,7 +39,7 @@ export default function Experiences() {
 
 
   return (
-  <div id='experience' className='w-full pt-[20vh]'>
+  <div id='experience' className='w-full px-3 lg:px-0 pt-[40vh]'>
     <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 gap-8'>
       <div className='col-span-2'>
         <p className='py-2 uppercase text-xl tracking-widest text-primary'>

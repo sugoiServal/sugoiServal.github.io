@@ -12,6 +12,8 @@ import hateSpeech from '../public/assets/projects/hateSpeech.png'
 import prj from '../public/assets/projects/prj.png'
 import springAPI from '../public/assets/projects/springAPI.png'
 import predit from '../public/assets/projects/predit.png'
+import survey_show from '../public/assets/projects/survey_show.png'
+import crypto_show from '../public/assets/projects/crypto_show.png'
 import ProjectItem from './ProjectItem';
 
 
@@ -33,28 +35,28 @@ const Projects = () => {
             tech='React JS'
           /> */}
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectInfoUrl='/prj/crypto'
-            liveUrl={null}
-            githubUrl={null}
-            tech='React JS'
+            title='Crypto Dashboard'
+            backgroundImg={crypto_show}
+            // projectInfoUrl='/prj/crypto'
+            liveUrl={"https://cryptocore-42535.web.app/"}
+            githubUrl={"https://github.com/sugoiServal/Crypto-Core"}
+            tech='CoinGecko Api, React, Tailwind, react-sparklines, react-chartjs-2'
 
           />
       
           <ProjectItem
             title='Nodejs/React Email Survey Campaign Service'
-            backgroundImg={netflixImg}
-            projectInfoUrl='/prj/netflix'
+            backgroundImg={survey_show}
+            // projectInfoUrl='/prj/netflix'
             liveUrl={"https://hub.docker.com/repository/docker/mlpppp/survey-collector"}
             githubUrl={"https://github.com/sugoiServal/survey-collector"}
-            tech='a Paid API Service, React, Bootstrap CSS, Express, MongoDB, JWT, Oauth:Google/Facebook/Github, reCAPTCHA, Stripe API, Twilio SendGrid API, Github Action'
+            tech='A Paid API Service, Express, MongoDB, JWT, Oauth:Google/Facebook/Github, Stripe API, Twilio SendGrid API, React/Bootstrap, reCAPTCHA, Github Action'
           />
 
           <ProjectItem
             title='Spring Boot Student Grade APIs'
             backgroundImg={springAPI}
-            projectInfoUrl='/prj/twitch'
+            // projectInfoUrl='/prj/twitch'
             liveUrl={"http://54.81.94.17:8080/swagger-ui/index.html#/"}
             githubUrl={"https://github.com/mlpppp/Grade-APIs"}
             tech='Java, Spring Boot Rest, JPA, MySQL, Spring Security(JWT auth), OpenAPI, mockmvc/JUnit, EC2/Docker'
@@ -66,7 +68,7 @@ const Projects = () => {
             projectInfoUrl=''
             liveUrl={"https://project-management-b274f.firebaseapp.com/"}
             githubUrl={"https://github.com/mlpppp/Project-Done"}
-            tech='React, vanilla CSS, Firebase Backend: Firestore Database, Storage, Authentication'
+            tech='React, Vanilla CSS, Firebase Backend: Firestore Database, Storage, Authentication'
           />
 
           <ProjectItem
@@ -75,7 +77,7 @@ const Projects = () => {
             projectInfoUrl=''
             liveUrl={"https://www.youtube.com/watch?v=c_3gBXLABsc"}
             githubUrl={"https://github.com/sugoiServal/ScaleORB-SLAM"}
-            tech='C++, openCV, Cmake, Python, Pandas, Matplotlib, Mask R-CNN Object Detection'
+            tech='C++, OpenCV, Cmake, Python, Pandas, Matplotlib, Mask R-CNN Object Detection'
           />
 
           <ProjectItem
@@ -83,15 +85,15 @@ const Projects = () => {
             backgroundImg={hierRL}
             projectInfoUrl={null}
             liveUrl={"https://caiac.pubpub.org/pub/3mel4x9p/release/1"}  
-            githubUrl={"/prj/twitch"}  /* TODO */
-            tech='Pytorch, Google OR-Tools, GPN, Deep Learning Model, Operational Researching Problem, NP-hard'
+            githubUrl={"https://github.com/sugoiServal/hierarchical_vrptw"}  /* TODO */
+            tech='Pytorch, GPN, Reinforcement Learning Model, Operational Researching Problem, NP-hard, Google OR-Tools'
           />
           <ProjectItem
             title='Explore BERT, HS-LSTM & ID-LSTM Model in Hate Speech Detection Task'
             backgroundImg={hateSpeech}
             projectInfoUrl={null}
-            liveUrl={"https://github.com/sugoiServal/UO-19-ma/blob/master/(2.5386)%20Natural%20Language%20Processing/%5BReinforcementLSTM%5DhateSpeechDetection_project/presentation.pdf"}
-            githubUrl={"https://github.com/sugoiServal/UO-19-ma/tree/master/(2.5386)%20Natural%20Language%20Processing/%5BReinforcementLSTM%5DhateSpeechDetection_project"}
+            liveUrl={"https://github.com/sugoiServal/UO-19-ma/blob/master/2.5386_Natural_Language_Processing/%5BReinforcementLSTM%5DhateSpeechDetection_project/project_report.pdf"}
+            githubUrl={"https://github.com/sugoiServal/UO-19-ma/tree/master/2.5386_Natural_Language_Processing/%5BReinforcementLSTM%5DhateSpeechDetection_project"}
             tech='Hate Speech Detection, Natural Language Processing Model, BERT, Reinforcement Learning, Pytorch, Matplotlib'
           />
           <ProjectItem
@@ -106,9 +108,9 @@ const Projects = () => {
             title="Predict'em All: Predict Rare Pokemons"
             backgroundImg={predit}
             projectInfoUrl={null}
-            liveUrl={"hhttps://github.com/sugoiServal/UO-19-ma/blob/master/1.5155_Machine_Learning/%5BDataSciencePipeline%5DPredictRarePokemons_Project/csi5155%20project%20report.pdf"}
+            liveUrl={"https://github.com/sugoiServal/UO-19-ma/blob/master/1.5155_Machine_Learning/%5BDataSciencePipeline%5DPredictRarePokemons_Project/csi5155%20project%20report.pdf"}
             githubUrl={"https://github.com/sugoiServal/UO-19-ma/tree/master/1.5155_Machine_Learning/%5BDataSciencePipeline%5DPredictRarePokemons_Project"}
-            tech='Columnar Feature Engineering, Machine Learning Algorithms, Scikit Learn, Matplotlib'
+            tech='Columnar Data Feature Engineering, Machine Learning Algorithms, Scikit Learn, Matplotlib'
           />
 
 
