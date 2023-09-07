@@ -19,15 +19,15 @@ export default function ExpItem({image, title, institute, institute2, date, desc
       </div>
     </div>
     <div className="items-center py-5 row col-span-2">
-      
+ 
         {/* Udemy */}
         {description === "udemyDesc" && 
           <ul className='list-disc pl-8'>   
             <li>
-              Focusing on Back-end development, Front-end development, DevOps, and Cloud Technologies, gradually diving deep into a field and/or exploring new frontiers
+              Focusing on Back-end development, Front-end development, DevOps, and Cloud Technologies, gradually diving deep into a field and/or exploring new frontiers. Means to be comprehensive but also focus on a few key stacks.
             </li>
-            <li>Keeping a balance between self-driven projects, studying theory, following material and reviewing.  </li>  
-            <li>Keeping every key note/ref/cheatsheet of my learning on a GitHub repo for a quick revisit/landing on the next project in the future.</li>  
+            <li>Keeping a balance between self-driven projects, studying theory, following material, and reviewing.  </li>  
+            <li>Keeping every keynote/ref/cheat sheet of my learning on a GitHub repo for a quick revisit/landing on the next project in the future.</li>  
             <li><Link className='font-bold text-primary hover:border-b-2 border-primary' href={"/#skills"}>{"Check out what I am able to do."}</Link></li>
           </ul>  
         }
@@ -80,9 +80,9 @@ export default function ExpItem({image, title, institute, institute2, date, desc
         {/* IIRCC  */}
         {description === "IIRCCDesc" && 
           <ul className='list-disc pl-8'>   
-            <li>Learned the basics of <b>Algorithm Trading</b> and gathering report about the learning. </li>
-            <li>Implemented investment strategies over mocking stock data with a <b>MATLAB-based software</b>.</li>
-            <li>Particitate in daily office operation with <b>MS office</b>.</li>
+            <li>Learned the basics of <b>Algorithm Trading</b> and gathering reports about the learning. </li>
+            <li>Implemented investment strategies over mocking stock data with <b>MATLAB-based software</b>.</li>
+            <li>Participate in daily office operations with <b>MS Office</b>.</li>
           </ul>  
         }
     </div>

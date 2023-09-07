@@ -79,14 +79,14 @@ export default function Experiences() {
       <ExpItem image={JOYData}   
                 title={"Software Tester Intern"}
                 institute={"Xiyue Intelligence Data, Shenzhen"}
-                date={"Jul 2018 - Sep 2018"}
+                date={"May 2018 - Sep 2018"}
                 description={"JOYDataDesc"}/> 
 
                 
       <ExpItem image={IIRCC}  
                 title={"Quant Developer Intern"}
                 institute={"Hanley Investment Management (IIRCC), Wuhan"}
-                date={"Jul 2017 - Sep 2017 "}
+                date={"Jun 2017 - Sep 2017 "}
                 description={"IIRCCDesc"}/> 
     </div>   
 

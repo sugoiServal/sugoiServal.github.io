@@ -1,7 +1,26 @@
-# TODO
+# About
+
+### Tools
+
+- Next
+- Tailwind
+- Github Action (for Next)
+
+### TODOs
 
 - a heatmap (GITHUB LC...)
 - PrjPgs (+gallery)
+
+# Ref:
+
+### Setup Action
+
+Settings -> Pages -> Source:GitHub Actions
+
+### Github Page Domain
+
+[Github Docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+[blog](https://www.cameronmacleod.com/blog/github-pages-dns)
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
