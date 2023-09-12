@@ -10,6 +10,7 @@
 
 - a heatmap (GITHUB LC...)
 - PrjPgs (+gallery)
+- modal filter，[etc](https://www.youtube.com/watch?v=atebfXxl9B4&list=PL41PQx5PPbt6OheJQkg-QNROfx9j75MuR&index=8)
 
 # Ref:
 
