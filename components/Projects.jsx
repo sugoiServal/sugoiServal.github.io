@@ -14,13 +14,14 @@ import springAPI from '../public/assets/projects/springAPI.png'
 import predit from '../public/assets/projects/predit.png'
 import survey_show from '../public/assets/projects/survey_show.png'
 import crypto_show from '../public/assets/projects/crypto_show.png'
+import studyRoom from '../public/assets/projects/studyRoom.png'
 import ProjectItem from './ProjectItem';
 
 
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
-      <div className='max-w-[1240px] mx-auto px-2 pt-[20vh]'>
+      <div className='max-w-[1240px] mx-auto px-3 pt-[20vh]'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
         </p>
@@ -34,6 +35,16 @@ const Projects = () => {
             githubUrl={null}
             tech='React JS'
           /> */}
+          <ProjectItem
+            title='Django MVT StudyRoom'
+            backgroundImg={studyRoom}
+            // projectInfoUrl='/prj/crypto'
+            // liveUrl={"https://cryptocore-42535.web.app/"}
+            githubUrl={"https://github.com/sugoiServal/DjangoMVTStudyRoom"}
+            tech='Django MVT, Admin, ORM, Template, Authentication and Session'
+
+          />
+
           <ProjectItem
             title='Crypto Dashboard'
             backgroundImg={crypto_show}

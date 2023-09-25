@@ -5,43 +5,51 @@ import AboutImg from '../public/assets/about_waifu2x.png';
 
 const About = () => {
   return (
-    <div id='about' className='w-full  p-2 flex items-center py-16'>
-      <div className='max-w-[1340px] m-auto md:grid grid-cols-3 gap-8'>
-        <div className='col-span-2'>
+    <div id='about' className='w-full px-7 lg:px-2 flex items-center py-16'>
+      <div className='max-w-[1480px] m-auto md:grid grid-cols-4 gap-8'>
+        <div className='col-span-3'>
           <p className='py-2 uppercase text-xl tracking-widest text-primary'>
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
+          <p className='pt-2 text-gray-600'>
+          
+          I am Wei (Evan) Li, a <b>Computer Science Master graduate</b> passionate about technologies, creativity and self-management.
           Currently, I specialize in three core areas of development:</p>
           <ol className='list-decimal py-2 pl-4 text-gray-600'>
-            <li>Building APIs using JavaScript/Java.</li>
-            <li>Creating front-end UIs with JavaScript frameworks.</li>
-            <li>Conducting Data Science exploration and Deep Learning experiments.</li>
+            <li><b>Building APIs/websites</b> using <b>JavaScript/Java/Python frameworks.</b></li>
+            <li>Creating <b>front-end UIs</b> with JavaScript frameworks.</li>
+            <li>Conducting <b>Data Science exploration and Deep Learning experiments</b>.</li>
           </ol> 
-          <p>Additionally, I have {"two"} years of experience in C++ and am currently delving into DevOps and Cloud technologies.</p>
-          <p className='py-2'>My journey into web development began in late 2020 when I set up and hosted my personal blog. Since then, I've been self-learning both front-end and back-end technologies, gaining hands-on experience through projects and certifications. I now possess a comprehensive understanding of the web application lifecycle, with practical knowledge in various aspects.</p>
-          <p className='py-2'>Before web development, my background was primarily in Data Analysis and Deep Learning within the academic context. With a mixed background in Mathematics, Statistics, and Computer Science, I started coding in 2015, using languages like Python, R, and Matlab for Mathematical Modeling and Data Analysis. I did courses in Computer Science Department during my undergraduate studies and then completed my Master's degree at uOttawa concentrating on Deep Learning, accumulating about {"four"} years of experience in Deep Learning.</p>
-          <p className='py-2'>Learning is my passion. I believe that being a great developer involves not only performing operational tasks, but also anticipating potential requirements and problems, knowing available tools, and having a keen mind to decide on tool selection. I document and regularly revisit my knowledge base. This approach provides me with confidence, creativity and sanity in problem-solving.</p>
-          <p className='py-2'>In life, I embrace Minimalism. I enjoy optimization in various aspects, from my living environment and lifestyle, to my workflows, and decision-making processes.</p>
+          <p>Additionally, I have {"two"} years of experience in <b>C++</b> and am currently delving into <b>DevOps and Cloud</b> technologies.</p>
+          <p className='py-4 md:py-2'>My journey into <b>web development</b> began in late 2020 when I set up and hosted my personal blog. Since then, I've been self-learning both front-end and back-end technologies, gaining hands-on experience through projects and certifications. I now possess a comprehensive understanding of the web application lifecycle, with practical knowledge in various aspects.</p>
+          <p className='py-4 md:py-2'>Before web development, my background was primarily in <b>Data Analysis and Deep Learning</b> within the academic context. With a mixed background in <b>Mathematics, Statistics, and Computer Science</b>, I started coding in 2015, using languages like Python, R, and Matlab for Mathematical Modeling and Data Analysis. I did courses in Computer Science Department during my undergraduate studies and then completed my Master's degree at uOttawa concentrating on Deep Learning, accumulating about {"four"} years of experience in Deep Learning.</p>
+          <p>I am currently learning <b>Kubernetes, terraform and Golang</b>, and also diving deep into <b>Spring Boot</b>.</p>
 
 
-          <p>I am currently learning Kubernetes and Django framework, and also diving deep into Spring Boot.</p>
+          <h2 className='py-6 text-2xl'>If you would like to know me a bit more...</h2>
+          <p className='py-4 md:py-2'> As an ENTJ/INTJ, I never fail to stay self-motivated, always welcome challenges and continuously push myself beyond the boundaries.</p> 
+          <p>I embrace Minimalism. Mathmaticals education taught me about the notion of optimization, which I apply to various aspects of life, from my living and lifestyle, to my workflows, and most decision-making processes.</p>
+          <p className='py-4 md:py-2'>Learning is my passion. I document thoroughly and regularly revisit my knowledge base. I believe that being a great developer involves not only performing operational tasks, but also anticipating potential requirements and problems, knowing available tools, and having a keen mind to decide on tool selection.  This approach provides me with confidence, creativity and sanity in problem-solving. </p>
+          <p className='py-4 md:py-2'></p>
+          
+
+
           <div className="mt-6">
             <Link href='/#projects'>
-              <p className='py-1 w-[50%] text-gray-600 underline cursor-pointer hover:bg-gray-200 rounded-md '>
+              <p className='py-1 w-[80%] text-gray-600 underline cursor-pointer hover:bg-gray-200 rounded-md '>
                 Check out some of my latest projects.
               </p>
             </Link>
 
             <Link href='/#experience'>
-              <p className='py-1 w-[50%] text-gray-600 underline cursor-pointer hover:bg-gray-200 rounded-md '>
+              <p className='py-1 w-[80%] text-gray-600 underline cursor-pointer hover:bg-gray-200 rounded-md '>
               Check out my education and jobs experience.
               </p>
             </Link>
 
             <Link href='/#skills'>
-              <p className='py-1 w-[50%] text-gray-600 underline cursor-pointer hover:bg-gray-200 rounded-md'>
+              <p className='py-1 w-[80%] text-gray-600 underline cursor-pointer hover:bg-gray-200 rounded-md'>
                 Check out my tech stack.
               </p>
             </Link>

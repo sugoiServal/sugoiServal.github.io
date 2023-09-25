@@ -42,6 +42,9 @@ html {
   .icon {
       @apply rounded-full shadow-lg shadow-gray-400 p-3 hover:opacity-50 hover:bg-gray-300 cursor-pointer hover:scale-110 ease-in duration-300
   }
+  .icon-sm {
+    @apply rounded-full shadow-lg shadow-gray-400 p-2 hover:opacity-50 hover:bg-gray-300 cursor-pointer hover:scale-110 ease-in duration-300
+  }
   .nav-item {
     @apply ml-8 text-sm uppercase hover:border-b hover:bg-gray-300 p-3 py-[30px] rounded-sm
   }

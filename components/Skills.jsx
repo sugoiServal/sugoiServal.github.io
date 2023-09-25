@@ -50,10 +50,9 @@ import java from '../public/assets/skills/java.png';
 
 
 
-
 const Skills = () => {
   return (
-    <div id='skills' className='w-full pt-[20vh]'>
+    <div id='skills' className='w-full pt-[20vh] px-3'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
@@ -75,6 +74,8 @@ const Skills = () => {
         <div className='grid grid-cols-2 md:grid-cols-3  lg:grid-cols-5 gap-8'>
           <GridItem image={node} skill="Nodejs"/>
           <GridItem image={springBoot} skill="Spring Boot"/>
+          <GridItem image={django} skill="Django"/>
+
         </div>
 
           {/* Web Tools */}

@@ -13,7 +13,7 @@ export default function Badges() {
     alert("Validation Number Copied to Clipboard. ");
   }
   return (
-        <div id='badges' className='w-full lg:h-screen pt-[20vh]'>
+        <div id='badges' className='w-full px-3 lg:h-screen pt-[20vh]'>
           <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
               badges
@@ -23,8 +23,8 @@ export default function Badges() {
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
               <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center'>
-                  <div className='m-auto'>
-                      <Image src={GRETest} width={270} height='270px' alt='/' />
+                  <div className='m-auto relative w-24 h-24 sm:w-36 sm:h-36 lg:w-60 lg:h-60'>
+                      <Image src={GRETest} fill={true} alt='/' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                       <h3>{"ETS GRE test"}</h3>
@@ -40,8 +40,8 @@ export default function Badges() {
               <div className='p-6
                shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center'>
-                  <div className='m-auto'>
-                      <Image src={toefl} width='64px' height='64px' alt='/' />
+                  <div className='m-auto relative w-24 h-24 sm:w-36 sm:h-36 lg:w-60 lg:h-60'>
+                      <Image src={toefl} fill={true} alt='/' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                       <h3>{"ETS TOEFL test"}</h3>
@@ -58,8 +58,8 @@ export default function Badges() {
 
               <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center'>
-                  <div className='m-auto'>
-                      <Image src={vector} width='64px' height='64px' alt='/' />
+                  <div className='m-auto relative w-24 h-24 sm:w-36 sm:h-36 lg:w-60 lg:h-60'>
+                      <Image src={vector} fill={true} alt='/' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                       <h3>{"Vector Scholarship in AI(2019)"}</h3>
@@ -70,8 +70,8 @@ export default function Badges() {
               
               <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center'>
-                  <div className='m-auto'>
-                      <Image src={awsSaa} width='64px' height='64px' alt='/' />
+                  <div className='m-auto relative w-24 h-24 sm:w-36 sm:h-36 lg:w-60 lg:h-60'>
+                      <Image src={awsSaa} fill={true} alt='/' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                       <h3>{"AWS Certified Solutions Architect - Associate (SAA)"}</h3>

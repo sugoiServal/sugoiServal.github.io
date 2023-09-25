@@ -8,36 +8,6 @@ import JOYData from '../../public/assets/experiences/JOYData.png';
 import IIRCC from '../../public/assets/experiences/IIRCC.png';
 
 export default function Experiences() {
-  const udemyDesc = [
-  ]
-
-  const uoDesc = [
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde placeat adipisci harum. Culpa dolores aperiam,",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde placeat adipisci harum. Culpa dolores aperiam,",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde placeat adipisci harum. Culpa dolores aperiam,",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde placeat adipisci harum. Culpa dolores aperiam,",
-  ]
-
-
-
-  const NRCDesc = [
-    "Did research and implementation on heavily constrained Vehicle Routing Problem with Time Window (VRPTW), and introduced a new approach to solve it with reinforcement learning(RL).",
-    "Transformed the VRPTW into a Hierarchical RL problem. Designed and implemented the model with PyTorch. Implemented benchmark solution with Google OR-Tools library.",
-    "Conduct experiments on NRC computing clusters (Unix, remote). ",
-    "Continue to improve the model by model tuning and model structure refinement.",
-    "Participated in group discussions, updated the research and dev progress, and maintained the code repository.",
-    "Work was published at Canadian Conference on Artificial Intelligence 2021 🔗",
-  ]
-
-  const GXUDesc = [
-  ]
-
-  const JOYDataDesc = [
-  ]
-  const IIRCCDesc = [
-  ]
-
-
   return (
   <div id='experience' className='w-full px-3 lg:px-0 pt-[40vh]'>
     <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 gap-8'>
