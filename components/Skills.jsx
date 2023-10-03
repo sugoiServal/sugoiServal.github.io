@@ -46,6 +46,7 @@ import springBoot from '../public/assets/skills/newAss/springBoot.png';
 import stripe from '../public/assets/skills/newAss/stripe_logo_icon_167962.png';
 import webhook from '../public/assets/skills/newAss/webhook.png';
 import java from '../public/assets/skills/java.png';
+import sql from '../public/assets/skills/SQL.svg';
 
 
 
@@ -81,7 +82,7 @@ const Skills = () => {
           {/* Web Tools */}
         <h3 className='mt-8 mb-3'>Web Tools</h3>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8'>   
-          <GridItem image={rest} skill="Rest"/>
+          <GridItem image={rest} skill="Rest API"/>
           <GridItem image={GraphQL} skill="GraphQL"/> 
           <GridItem image={webhook} skill="Webhook"/>
           <GridItem image={JWTImg} skill="JWT auth"/>
@@ -103,11 +104,13 @@ const Skills = () => {
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8'>  
           <GridItem image={java} skill="Java"/>
           <GridItem image={Javascript} skill="JavaScript"/>
-          <GridItem image={ts} skill="Typescript"/>
+          <GridItem image={go} skill="Go"/>
+          {/* <GridItem image={ts} skill="Typescript"/> */}
           <GridItem image={cplusplus} skill="C++"/>
           <GridItem image={python} skill="Python"/>
           <GridItem image={bash} skill="Bash"/>
           <GridItem image={PowerShell} skill="PowerShell"/>
+          <GridItem image={sql} skill="SQL"/>
         </div>
 
           {/* Cloud Provider, Cloud Architect */}
