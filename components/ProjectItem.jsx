@@ -6,7 +6,7 @@ const ProjectItem = ({title, backgroundImg, tech, projectInfoUrl, liveUrl, githu
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] hover:scale-105 ease-in duration-300'>
       <Image className='rounded-xl group-hover:opacity-10' src={backgroundImg} alt='/'/> 
-      <div className=' w-[90%] lg:w-[70%] mx-auto hidden group-hover:flex group-hover:flex-col group-hover:justify-between absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+      <div className=' w-[90%] lg:w-[70%] mx-auto flex invisible group-hover:visible group-hover:flex-col group-hover:justify-between absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
           <h3 className='text-lg sm:text-2xl text-white tracking-wider text-center'>{title}</h3>
           <h className='text-sm sm:text-base mt-2 pb-4 pt-2 font-semibold text-white text-center'>{tech}</h>
           <div className="flex justify-center">

@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="md:hidden hover:opacity-30" onClick={handleNav}>
           <AiOutlineMenu size={25}/>
         </div>
-        <ul className='hidden md:flex'>
+        <ul className='flex invisible md:visible  '>
             <Link href='/#about'>
               <li className='nav-item'>about</li>
             </Link>
