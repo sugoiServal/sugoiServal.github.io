@@ -2,12 +2,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const ProjectItem = ({title, backgroundImg, tech, projectInfoUrl, liveUrl, githubUrl, icon}) => {
+const ProjectItem = ({title, backgroundImg, tech, projectInfoUrl, liveUrl, githubUrl, description, date}) => {
+  const dateString = date !==null ? date.toLocaleString('en-US', { year: 'numeric', month: 'short' }) : null;
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] hover:scale-105 ease-in duration-300'>
       <Image className='rounded-xl group-hover:opacity-10' src={backgroundImg} alt='/'/> 
+      {dateString && <p className='invisible group-hover:visible absolute top-[5%] left-[80%] rounded-xl bg-slate-50 px-[8px] py-[2px] font-semibold '>{dateString}</p>}
       <div className=' w-[90%] lg:w-[70%] mx-auto flex invisible group-hover:visible group-hover:flex-col group-hover:justify-between absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
           <h3 className='text-lg sm:text-2xl text-white tracking-wider text-center'>{title}</h3>
+          {description && <p className='my-2 text-center text-white leading-5 '>{description}</p> }
+          <hr />
           <h className='text-sm sm:text-base mt-2 pb-4 pt-2 font-semibold text-white text-center'>{tech}</h>
           <div className="flex justify-center">
             {liveUrl  && <Link href={liveUrl} target='_blank'>

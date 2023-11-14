@@ -1,5 +1,12 @@
 # About
 
+### Dev
+
+```bash
+npm install
+npm run dev
+```
+
 ### Tools
 
 - Next
