@@ -170,6 +170,7 @@ const Projects = () => {
           })
           .map((project)=>(
             <ProjectItem
+              key={project.title}
               title={project.title}
               backgroundImg={project.backgroundImg}
               description={project.description}
