@@ -8,6 +8,12 @@ import JOYData from '../../public/assets/experiences/JOYData.png';
 import IIRCC from '../../public/assets/experiences/IIRCC.png';
 
 export default function Experiences() {
+  const presentDate = () => {
+    let date = new Date();
+    const dateString = date !==null ? date.toLocaleString('en-US', { year: 'numeric', month: 'short' }) : null;
+    return dateString;
+  }
+  const present = presentDate();
   return (
   <div id='experience' className='w-full px-3 lg:px-0 pt-[40vh]'>
     <div className='max-w-[1240px] mx-auto md:grid grid-cols-3 gap-8'>
@@ -25,7 +31,7 @@ export default function Experiences() {
                title={"Self-taught Web Developer"}
                institute={"Udemy/ Youtube/ LeetCode"}
                institute2={"stackoverflow/ ChatGPT"}
-               date={"Sep 2021 - Present"}
+               date={"Sep 2021 - " + present}
                description={"udemyDesc"}/> 
 
       <ExpItem image={uottawa}   

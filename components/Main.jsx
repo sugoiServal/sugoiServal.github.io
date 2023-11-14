@@ -7,28 +7,12 @@ import {CV_HREF} from '../constants'
 
 export default function Main() {
   const [acceptJob, setAcceptJob] = useState('open')
-  const computeDate = () => {
-    const monthDict = {
-      1: "Jan",
-      2: "Feb",
-      3: "Mar",
-      4: "Apr",
-      5: "May",
-      6: "Jun",
-      7: "Jul",
-      8: "Aug",
-      9: "Sep",
-      10: "Oct",
-      11: "Nov",
-      12: "Dec",
-    }
-    let dateObj = new Date();
-    let month = dateObj.getUTCMonth() + 1; //months from 1-12
-    let year = dateObj.getUTCFullYear();
-    let newdate = monthDict[month] + " " + year;
-    return newdate;
+  const presentDate = () => {
+    let date = new Date();
+    const dateString = date !==null ? date.toLocaleString('en-US', { year: 'numeric', month: 'short' }) : null;
+    return dateString;
   }
-  const curDate = computeDate()
+  const curDate = presentDate()
   return (
     <div id="main" className='w-full py-20 h-screen text-center'>
         <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex flex-col justify-center items-center">
