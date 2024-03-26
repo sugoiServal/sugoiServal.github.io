@@ -31,7 +31,7 @@ export default function Experiences() {
                title={"Self-taught Web Developer"}
                institute={"Udemy/ Youtube/ LeetCode"}
                institute2={"stackoverflow/ ChatGPT"}
-               date={"Sep 2021 - " + present}
+               date={"Sep 2021 - Dec 2022"}
                description={"udemyDesc"}/> 
 
       <ExpItem image={uottawa}   
